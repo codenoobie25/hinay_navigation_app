@@ -26,27 +26,27 @@ class SocialMediaPage extends StatelessWidget {
             child: ListTile(
               leading: const Icon(Icons.facebook, color: Colors.blue),
               title: const Text('Facebook'),
-              subtitle: const Text('student.sample'),
+              subtitle: const Text('Blyte Hinay'),
               trailing: const Icon(Icons.chevron_right),
-              onTap: () => showAccount(context, 'Facebook: student.sample'),
+              onTap: () => showAccount(context, 'Facebook:  Blyte Hinay'),
             ),
           ),
           Card(
             child: ListTile(
               leading: const Icon(Icons.camera_alt, color: Colors.pink),
               title: const Text('Instagram'),
-              subtitle: const Text('@student.sample'),
+              subtitle: const Text('@itsmeverity'),
               trailing: const Icon(Icons.chevron_right),
-              onTap: () => showAccount(context, 'Instagram: @student.sample'),
+              onTap: () => showAccount(context, 'Instagram: @itsmeverity'),
             ),
           ),
           Card(
             child: ListTile(
               leading: const Icon(Icons.play_circle, color: Colors.red),
               title: const Text('YouTube'),
-              subtitle: const Text('@StudentChannel'),
+              subtitle: const Text('@undead66'),
               trailing: const Icon(Icons.chevron_right),
-              onTap: () => showAccount(context, 'YouTube: @StudentChannel'),
+              onTap: () => showAccount(context, 'YouTube: @undead66'),
             ),
           ),
         ],
